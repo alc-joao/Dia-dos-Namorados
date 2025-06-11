@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Meu Amor</title>
+
+    <!-- Tailwind CSS para um design moderno e responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/coração.png" type="image/x-icon">
+   
+    <style>
+        @font-face {
+            font-family: gotham-ligth;
+            src: url(fonts/Gotham-Light.otf);
+        }
+    
+        @font-face {
+            font-family: gotham-medium;
+            src: url(fonts/Gotham-Medium.otf);
+        }
+    
+        @font-face {
+            font-family: gotham-bold;
+            src: url(fonts/Gotham-Bold.otf);
+        }
+    </style>
+
+</head>
+
+<body class="stars">
+
+    <!-- SEÇÃO 1: A ABERTURA -->
+    <section id="hero" class="h-screen w-full flex flex-col justify-center items-center text-center p-4 relative">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-10">
+
+            <h1 class="text-4xl md:text-7xl font-bold text-white mb-4">Para <span class="text-yellow-400">Lívia dos Santos Dantas ❤️</span></h1>
+            <!-- O texto que será digitado -->
+            <p class="text-lg md:text-2xl text-gray-200"><span id="typed-text"></span></p>
+        </div>
+        <a href="#timeline" class="absolute bottom-10 z-10 text-white animate-bounce">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+        </a>
+    </section>
+
+    <!-- SEÇÃO 2: LINHA DO TEMPO -->
+    <section id="timeline" class="py-20 px-4">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-white mb-16 reveal-on-scroll">Nossa Jornada
+                Começa Aqui...</h2>
+
+            <!-- Item da Linha do Tempo 1 -->
+            <div class="grid md:grid-cols-2 gap-8 items-center mb-20 reveal-on-scroll">
+                <div class="text-center md:text-left">
+                    <p class="text-yellow-400 font-bold mb-2">28/10/2023</p>
+                    <h3 class="text-3xl font-bold text-white mb-3">Onde Tudo Começou</h3>
+                    <p class="text-gray-300">Nesse dia tudo começou, quando nem imaginávamos que teríamos alguma coisa, que construiríamos esse amor que temos hoje. <br>
+
+                        Ah, se eu não tivesse mandado aquela mensagem e insistido... Você fugia de mim, e eu, às vezes, não sabia o que falar. Faltava coragem para ir conversar com você pessoalmente, então decidi seguir seu perfil no Instagram, e você aceitou. Aí, sem muita enrolação, eu já perguntei se você era solteira e se queria ficar comigo. <br>
+                        
+                        Você disse para eu falar com você pessoalmente, e eu também queria, para te conhecer, ouvir sua voz, porque sempre te achei muito linda. Mas, como eu disse, quando eu tentava, você dava um jeito de fugir de mim.
+                        <br>
+                        Até que um dia, peguei você de surpresa no corredor e a única coisa que consegui falar foi dar um "oi" e perguntar se você fugia ou se teletransportava (kkkkkkkk).
+                        <br>
+                        Eu saí de lá me tremendo inteiro. Nunca tinha sentido aquilo: o frio na barriga, a vergonha, a ansiedade... mas era uma sensação boa.
+                        <br>
+                        No entanto, como você não demonstrava muito interesse, parei de mandar mensagens. Fiquei duas semanas sem mandar mensagem, porque achei que você realmente não queria nada. Então, fingi que também "não queria nada", mas, no fundo, eu queria muito. Foi aí que percebi que, depois que parei de mandar mensagem, você olhava muito para mim.
+                        <br>
+                        Então, depois dessas duas semanas, te chamei de novo. Conversamos, te convidei para ir ao cinema e, no dia 03/11/2023, saímos pela primeira vez.
+                        <br>
+                        A melhor coisa que fiz foi ter te chamado de novo, meu amor!
+                        <br>
+                        Esse foi o nosso começo.</p>
+                </div>
+                <div class="flex justify-center">
+                    <img src="images/img-18.jpg" alt="Foto do primeiro encontro"
+                        class="rounded-lg shadow-2xl w-full max-w-sm gallery-item">
+                </div>
+            </div>
+
+            <!-- Item da Linha do Tempo 2 -->
+            <div class="grid md:grid-cols-2 gap-8 items-center mb-20 reveal-on-scroll">
+                <div class="flex justify-center md:order-2">
+                    <img src="images/img-17.jpg" alt="Foto de uma viagem"
+                        class="rounded-lg shadow-2xl w-full max-w-sm gallery-item">
+                </div>
+                <div class="text-center md:text-left md:order-1">
+                    <p class="text-yellow-400 font-bold mb-2">22/06/2024</p>
+                    <h3 class="text-3xl font-bold text-white mb-3">Nossa Primeira Viagem (Sítio)</h3>
+                    <p class="text-gray-300">A nossa primeira viagem, para o sítio amor, tenho muitas lembranças boas, porque foi aonde conheci mais seus pais, me inturmei mais com o pessoal, e me senti muito acolhido, foi onde também aproveitamos muito, ficamos juntos, assistimos filmes e dormimos juntos pela primeira vez, foi um dos melhores dias da minha vida, com certeza não vou esquecer nunca meu amor.</p>
+                </div>
+            </div>
+
+            <!-- Adicione mais itens da linha do tempo aqui -->
+
+        </div>
+    </section>
+
+    <!-- SEÇÃO 3: GALERIA DE MEMÓRIAS -->
+    <section id="gallery" class="py-20 px-4 bg-black/20">
+        <div class="container mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-center text-white mb-16 reveal-on-scroll">Uma Galeria de
+                Nossos Momentos</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8">
+
+                <!-- Adicione até 12 fotos. Use fotos de boa qualidade. -->
+                <!-- A legenda ('data-caption') aparecerá no clique. -->
+                <div class="reveal-on-scroll">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform -rotate-3 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-1.jpg" alt="Memória 1"
+                            class="w-full h-auto rounded-sm"
+                            data-caption="O ponto de onibus em frente ao júlio pestana, onde eu sempre ia deixar você, e você perdia varios onibus pra gente ficar mais um pouquinho juntos">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll" style="transition-delay: 100ms;">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform rotate-2 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-4.jpg" alt="Memória 2"
+                            class="w-full h-auto rounded-sm" data-caption="Foto tirada no Horto, nossa primeira foto Oficial.">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll" style="transition-delay: 200ms;">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform rotate-1 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-6.jpg" alt="Memória 3"
+                            class="w-full h-auto rounded-sm" data-caption="O dia em que tudo começou.">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll" style="transition-delay: 300ms;">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform -rotate-2 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-10.jpg" alt="Memória 4"
+                            class="w-full h-auto rounded-sm" data-caption="Nossa primeira viaem para o sítio, demos muitas risadas.">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform -rotate-3 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-2.jpg" alt="Memória 1"
+                            class="w-full h-auto rounded-sm"
+                            data-caption="Eu gosto muito dessa foto, ficou perfeita!">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll" style="transition-delay: 100ms;">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform rotate-2 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-7.jpg" alt="Memória 2"
+                            class="w-full h-auto rounded-sm" data-caption="Uma das fotos que mais me marcou, porque foi nossa primeira viagem para praia.">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll" style="transition-delay: 200ms;">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform rotate-1 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-8.jpg" alt="Memória 3"
+                            class="w-full h-auto rounded-sm" data-caption="Nossa primeira foto se beijando.">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll" style="transition-delay: 300ms;">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform -rotate-2 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-3.jpg" alt="Memória 4"
+                            class="w-full h-auto rounded-sm" data-caption="Tem como esquecer essa foto? no lugar aonde a gente ficava juntos na escola.">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform -rotate-3 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-9.jpg" alt="Memória 1"
+                            class="w-full h-auto rounded-sm"
+                            data-caption="Aqui é a mulher que mais amo nesse mundo, a mulher da minha vida e com quem vou edificar minha família!">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll" style="transition-delay: 100ms;">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform rotate-2 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-12.jpg" alt="Memória 2"
+                            class="w-full h-auto rounded-sm" data-caption="Nossa fotinha no shopping Center Norte.">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll" style="transition-delay: 200ms;">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform rotate-1 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-11.jpg" alt="Memória 3"
+                            class="w-full h-auto rounded-sm" data-caption="Mais ua das fotinhas na praia.">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll" style="transition-delay: 300ms;">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform -rotate-2 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-13.jpg" alt="Memória 4"
+                            class="w-full h-auto rounded-sm" data-caption="Não me esqueço dessa foto, estressei você, não queria devolver seu celular e você ficou brava kkkkkk.">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform -rotate-3 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-14.jpg" alt="Memória 1"
+                            class="w-full h-auto rounded-sm"
+                            data-caption="Quando fomos almoçar em Guarulhos.">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll" style="transition-delay: 100ms;">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform rotate-2 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-15.jpg" alt="Memória 2"
+                            class="w-full h-auto rounded-sm" data-caption="Pra mim essa é a nossa melhor foto, ficou muito perfeita meu amor! se eu fosse dar uma nota, eu daria nota LÍVIA!!">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll" style="transition-delay: 200ms;">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform rotate-1 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-16.jpg" alt="Memória 3"
+                            class="w-full h-auto rounded-sm" data-caption="Mais uma fotinha linda em nosso cantinho da escola.">
+                    </div>
+                </div>
+                <div class="reveal-on-scroll" style="transition-delay: 300ms;">
+                    <div class="gallery-item bg-white p-2 rounded-md shadow-lg transform -rotate-2 cursor-pointer"
+                        onclick="openModal(this)">
+                        <img src="images/img-5.jpg" alt="Memória 4"
+                            class="w-full h-auto rounded-sm" data-caption="E o dia que descobrimos a verdadeira força do nosso amor, o dia que descobrimos o verdadeiro amor, onde vimos que o amor supera e vence tudo, eu amo ter você em minha vida e amo poder te amar e sentir o seu amor, você é o AMOR DA MINHA VIDA, MINHA PRINCESA! EU TE AMO!">
+                    </div>
+                </div>
+                <!-- Adicione mais 4 a 8 fotos, seguindo o padrão -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal/Lightbox para a Galeria -->
+    <div id="modal"
+        class="modal fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center p-4 z-50 opacity-0 pointer-events-none"
+        onclick="closeModal()">
+        <div class="modal-content bg-white max-w-3xl max-h-full rounded-lg shadow-2xl overflow-hidden transform scale-95"
+            onclick="event.stopPropagation()">
+            <img id="modal-img" src="" alt="Imagem em destaque" class="w-full h-auto max-h-[70vh] object-contain">
+            <p id="modal-caption" class="text-gray-800 p-4 text-center"></p>
+        </div>
+    </div>
+
+
+    <!-- SEÇÃO 4: O GRANDE FINAL -->
+    <section id="finale" class="h-screen w-full flex flex-col justify-center items-center text-center p-4 relative">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative z-10 max-w-3xl mx-auto reveal-on-scroll">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">E o mais importante...</h2>
+            <p class="text-lg md:text-xl text-gray-200 leading-relaxed">
+                Meu amor,
+                <br><br>
+                Hoje é o nosso dia, o Dia dos Namorados, e eu só consigo pensar na sorte que tenho. Antes de você, eu não sabia que era possível sentir um amor tão completo e sincero. Tenho certeza de que foi Deus quem colocou você em minha vida. Nada é por acaso, tudo tem um propósito, e o nosso está sendo traçado, meu amor. Você me faz muito bem; eu sou o homem mais feliz deste mundo por ter você em minha vida.
+                <br><br>
+                As palavras não seriam suficientes para demonstrar o quanto sou feliz e grato por ter você ao meu lado. Você não é apenas minha namorada, é minha parceira, minha melhor amiga e o meu porto seguro.
+                <br><br>
+                Hoje, me peguei lembrando de como tudo começou... daquela mensagem, da minha vergonha e da sua mania de "fugir" de mim no corredor. Olhando para trás, tenho certeza de uma coisa: insistir em você foi a melhor decisão da minha vida.
+                <br><br>
+                Obrigado por ter me dado uma chance e por ser a namorada incrível que você é. Obrigado por transformar meus dias, por eu acordar e ter uma mensagem sua dizendo que me ama e, quando a gente se vê, pelos seus carinhos e pelo seu amor.
+                <br><br>
+                Obrigado por me fazer sorrir e por construir uma história tão linda ao meu lado. Prometo te fazer a mulher mais feliz deste mundo, te fazer sorrir sempre e, mesmo nos momentos desafiadores, eu estarei lá com você.
+                <br><br>
+                Mal posso esperar por tudo que ainda vamos viver juntos.
+                <br><br>
+                Feliz Dia dos Namorados para a mulher da minha vida. Eu te amo mais do que qualquer palavra pode expressar.
+            </p>
+            <p class="mt-8 text-2xl text-yellow-400 font-bold">EU TE AMO MINHA PRINCESA.❤️</p>
+        </div>
+    </section>
+
+    <!-- Typed.js para o efeito de digitação -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

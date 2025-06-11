@@ -1,0 +1,60 @@
+
+ body {
+    background-color: #1f112e; 
+    color: #e0e0e0;
+    font-family: gotham-ligth;
+}
+h1, h2, h3 {
+    font-family: gotham-ligth;
+}
+
+/* Fundo de estrelas animado */
+@keyframes move-stars {
+    from { background-position: 0 0; }
+    to { background-position: -10000px 5000px; }
+}
+.stars {
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    animation: move-stars 150s linear infinite;
+}
+
+/* Efeito de digitação do cursor */
+.typed-cursor {
+    color: #fca311;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+/* Efeito de "levantar" nas fotos da galeria */
+.gallery-item {
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+.gallery-item:hover {
+    transform: translateY(-10px) rotate(2deg);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.2), 0 8px 10px -6px rgb(0 0 0 / 0.2);
+}
+
+/* Oculta elementos para animação com JS */
+.reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Estilo do modal (lightbox) */
+.modal {
+    transition: opacity 0.3s ease;
+}
+.modal-content {
+    transition: transform 0.3s ease;
+}
+
+#finale {
+    height: fit-content;
+}
