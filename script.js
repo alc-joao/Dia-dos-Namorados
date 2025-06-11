@@ -1,6 +1,6 @@
 // --- EFEITO DE DIGITAÇÃO ---
 new Typed('#typed-text', {
-    strings: ['Eu construí nosso universo particular.', 'Uma viagem pelas nossas memórias.', 'Role para baixo para começar.'],
+    strings: ['Com Muito Amor, Do Seu Joãozinho.','Eu atravessaria a quinta dimenssão com a força do amor que sinto por você. (Interestellar)',  'Eu construí nosso universo particular.', 'Uma viagem pelas nossas memórias.', 'Role para baixo para começar.'],
     typeSpeed: 50,
     backSpeed: 25,
     backDelay: 1500,
